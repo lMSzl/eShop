@@ -1,0 +1,240 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    padding-left:44%;
+    padding-top:3%;
+}
+.nav{
+    background-color:whitesmoke;
+    
+    width:100%;
+}
+.menu {
+    color:black;
+    background-color: whitesmoke;
+    width: 40%;
+    
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin: 0;
+}
+.menu-item {
+   Color:#666666;
+   padding:2%;
+}
+.menu-style{
+    text-decoration-style:none;
+    
+}
+.menu-selected{
+
+}
+.menu-hover {
+    background-color: tomato;
+    color: #85CAEC;
+    text-decoration: solid;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3%;
+    padding-left: 45%;
+}
+
+    .icons .icon-link {
+        text-decoration: none;
+        color: dimgrey;
+        padding: 1%;
+        font-size: 35px;
+    }
+
+        .icons .icon-link:hover {
+            color: tomato;
+        }
+section{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+footer {
+    background-color: whitesmoke;
+    color: dimgrey;
+    display: block;
+    padding: 2%;
+}
+footer p{
+    margin-left:2.5%;
+}
+/*
+    catalogue
+*/
+.catalogue{
+    margin-top:2.5%;
+    margin-bottom: 2.5%;
+}
+.buy-button {
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+    .buy-button:hover {
+        background-color: tomato;
+        color: #85CAEC;
+    }
+
+.login-page {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgba(71, 155, 255, 0.45);
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-top: 2.5% ;
+    margin-bottom: 2.5%;
+}
+.hi {
+    color: #333333;
+    text-align: center;
+}
+.hi a{
+    text-decoration:solid;
+    color: tomato;
+}
+    .hi a:hover {
+        color: #2630b9;
+        text-decoration:solid;
+    }
+.register {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(71, 155, 255, 0.45);
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    
+}
+.form{
+    margin-left:18%;
+}
+.Sign-In{
+    margin-left: 33%;
+    margin-top: 9%;
+    font-size:smaller;
+}
+.Sign-In p{
+    margin-left:1%;
+}
+.login-button {
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 9.5%;
+    margin-top:10%;
+    margin-bottom:0;
+}
+    .login-button:hover {
+        background-color: tomato;
+        color: #85CAEC;
+    }
+.register-button {
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left:28%;
+}
+.remove-button {
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left:0.5%;
+}
+    .remove-button:active {
+        background-color: tomato;
+        color: #85CAEC;
+    }
+    .register-button:hover {
+        background-color: tomato;
+        color: #85CAEC;
+    }
+    .register h1 {
+        text-align: center;
+        color: #333333;
+    }
+    .register p{
+        font-size:smaller;
+        color:tomato;
+        margin-left:12%;
+        margin-top:0.5%;
+        margin-bottom:0.5%;
+    }
+.trends h1 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #333333;
+}
+.box {
+    width: 23%;
+    display: inline-block;
+    border: 1px solid #85CAEC;
+    margin-right:0.5%;
+    margin-bottom:10%;
+    box-sizing:content-box;
+
+}
+.basket-holder {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.basket{
+   
+}
+.box img{
+    width:230px;
+    height:230px;
+}
+    .box:hover {
+        border: 2px solid tomato;
+    }
+    .deals{
+        width:100%;
+        display:inline-block;
+    }
+    /*txt boxes*/
+    .short-txt{
+        width: 15em;
+       
+    }

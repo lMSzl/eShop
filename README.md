@@ -1,2 +1,1 @@
-# eShop
-eShop (Visual Basic, SQL Data Base
+# shop-assign3

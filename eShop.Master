@@ -1,0 +1,54 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="eShop.master.vb" Inherits="shop_assign3.eShop" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>eShop</title>
+    <link href="Style.css" rel="stylesheet" />
+    <link href="css/fontello.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+            <div class="logo">
+            <a href="Home.aspx">
+            <img src="Images/logo.JPG" /> 
+            </a>
+                <div class="icons">
+   <a class="icon-link" href="Login.aspx" > <i class="icon-login"></i> </a>
+   <a class= "icon-link" href ="Basket.aspx" > <i class="icon-basket"></i></a>
+        </div>
+            </div>
+            <nav class="nav">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticDisplayLevels="2" CssClass="menu" ItemWrap="True">
+                <StaticHoverStyle CssClass="menu-hover" ForeColor="#85CAEC" BackColor="Tomato" Font-Bold="True" />
+                <StaticMenuItemStyle CssClass="menu-item" ForeColor="#333333" HorizontalPadding="10px" VerticalPadding="10px" />
+                <StaticMenuStyle CssClass="menu-style" HorizontalPadding="10px" />
+                <StaticSelectedStyle CssClass="menu-selected" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </nav>
+            </header>
+            <section>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+            <footer>
+              <h3>
+                  Contact
+              </h3>  
+                <h4><i class="icon-mail"></i>e-mail:
+                eshop@gmail.com</h4>
+                <h4><i class="icon-phone-outline"></i>phone:
+                +44 567 876 435</h4>
+                <p>Copyright  © eShop 2018</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
